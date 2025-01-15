@@ -205,7 +205,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #fff;
+    background-color: #868686;
     color: red;
     text-align: center;
     padding: 10px;
