@@ -100,8 +100,8 @@ Lập trình giao diện website
 
         <!-- Footer -->
         <footer class="footer">
-            <p>Thông tin liên hệ: 0123 456 789 | email@example.com</p>
-            <p>Theo dõi chúng tôi trên: <a href="https://facebook.com/tuanhoba">Facebook</a>, <a href="https://twitter.com/tuanhoba">Twitter</a>, <a href="https://instagram.com/tuanhoba">Instagram</a></p>
+            <p>Thông tin liên hệ: 0943 943 179 | me@hoangquoctuan.net</p>
+            <p>Theo dõi chúng tôi trên: <a href="https://hoangquoctuan.net">Website</a>, <a href="https://facebook.com/tuanhoba">Facebook</a>, <a href="https://twitter.com/tuanhoba">Twitter</a>, <a href="https://instagram.com/tuanhoba">Instagram</a></p>
             <p>Tham khảo thêm về Flexbox tại: <a href="https://codepen.io/hoangquoctuan/pen/ZEVdREy" target="_blank">CodePen</a></p>
         </footer>
     </div>
