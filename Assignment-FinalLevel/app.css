@@ -1,0 +1,149 @@
+        body {
+            background: url('./img/vfx-story.jpg');
+            background-size: cover;
+        }
+        
+        #wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        #header-menu {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header #header-menu {
+            width: 100%;
+            border: 1px solid #e24d4d;
+            margin: 0 auto;
+            border-radius: 1005px;
+        }
+        
+        header #header-menu img {
+            width: 200px;
+            height: auto;
+            padding: 18px 5px;
+            transition: width 2s;
+            transform: rotate(60deg);
+        }
+        
+        header #header-menu img:hover {
+            width: 250px;
+            transform: rotate(180deg);
+        }
+        
+        #main-menu {
+            display: flex;
+        }
+        
+        #main-menu li a {
+            text-decoration: none;
+            list-style: none;
+            color: #d6e24d;
+            text-transform: uppercase;
+        }
+        
+        #main-menu li a:hover {
+            color: #e24d4d;
+        }
+        
+        #main-menu li a::before {
+            content: "";
+            height: 0px;
+            width: 0px;
+            background-color: #e6c81c;
+            position: relative;
+            bottom: -26px;
+            /* transition: .2s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+            transition: width 2s, height 1s;
+        }
+        
+        #main-menu li:hover a::before {
+            display: block;
+            width: 150%;
+            position: relative;
+            height: 2px;
+        }
+        
+        #header-menu ul li {
+            list-style: none;
+            display: block;
+            padding: 15px 10px;
+        }
+        /* Banner */
+        
+        .banner {
+            padding-top: 5px;
+            opacity: 0.3;
+        }
+        
+        .banner:hover {
+            background-color: #168a78;
+            opacity: 0.9;
+        }
+        /* Phần main  */
+        
+        main {
+            max-width: 1200px;
+            background-color: #655f5f;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px;
+        }
+        
+        main .sidebar-left {
+            width: 300px;
+            background-color: #d6cdcd;
+        }
+        
+        main .content-main {
+            width: 100%;
+            background-color: #b93737;
+            padding: 5px 5px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        
+        .content-main .item {
+            padding: 5px 5px 5px 5px;
+            border: 1px solid #e6c81c;
+            margin-bottom: 5px;
+        }
+        
+        .content-main .item:nth-child(4) {
+            background-color: #d6e24d;
+            order: 1;
+        }
+        
+        .content-main .item:nth-child(3) {
+            background-color: #394399;
+            order: 5;
+        }
+        
+        .content-main .item:nth-child(2) {
+            background-color: #2490bf;
+            order: 4;
+        }
+        
+        .content-main .item:nth-child(5) {
+            background-color: #d23392;
+            order: 3;
+        }
+        
+        .content-main:: .item:nth-child(6) {
+            background-color: #711935;
+            order: 2;
+        }
+        
+        .content-main .item:nth-child(7) {
+            background-color: #bda90f;
+            order: 6;
+        }

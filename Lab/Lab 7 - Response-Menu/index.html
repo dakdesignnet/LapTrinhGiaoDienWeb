@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab7 Responsive Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <!-- header>div.container -->
+   <header>
+        <div class="container">
+            <!-- div.logo>a>img -->
+            <div class="logo">
+                <a href=""><img src="./img/logo-dakdesign-slogan-min.png" alt=""></a>
+                <!-- div.nav-toggle#navToggle>img -->
+                <div class="nav-toggle" id="navToggle">
+                    <img class="icon" src="./img/open.svg" alt="">
+                   <img class="icon hidden-nav" src="./img/close.svg" alt="" srcset="">
+                </div>
+            </div>
+    
+            <!-- nav>ul>(li>a)*5 -->
+            <nav>
+                <ul>
+                    <li><a href="">Thiết kế web</a></li>
+                    <li><a href="">Sản phẩm</a></li>
+                    <li><a href="">Dịch vụ</a></li>
+                    <li><a href="">Video</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </nav>
+    
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
