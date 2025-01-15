@@ -1,15 +1,15 @@
 # LapTrinhGiaoDienWeb
 Lập trình giao diện website
-# Flexbox Layout Design
+# Thiết kế giao diện web với Flexbox Layout Design
 
 ## HTML Code
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Layout</title>
+    <title>Thiết kế giao diện web với Flexbox Layout Design</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -205,8 +205,8 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: #fff;
+    color: red;
     text-align: center;
     padding: 10px;
 }
