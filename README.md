@@ -2,7 +2,7 @@
 Lập trình giao diện website
 # Thiết kế giao diện web với Flexbox Layout Design
 
-## HTML Code
+## HTML Code đặt tên là index.html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -113,7 +113,7 @@ Lập trình giao diện website
 </html>
 ```
 
-## CSS Code
+## CSS Code đặt tên là styles.css
 ```css
 /* Reset */
 * {
