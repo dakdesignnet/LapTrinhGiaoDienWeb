@@ -51,7 +51,6 @@ Lập trình giao diện website
                 <h2>Hướng dẫn cấu hình ban đầu cho VS Code để lập trình giao diện web</h2>
                 <h3>VS Code Extensions</h3>
                 <ul>
-                    <li>Live Preview</li>
                     <li>Live Server</li>
                     <li>Auto Rename Tag</li>
                     <li>Autumn Color Highlight</li>
