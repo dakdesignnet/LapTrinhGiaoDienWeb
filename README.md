@@ -2,14 +2,16 @@
 Lập trình giao diện website
 # Thiết kế giao diện web với Flexbox Layout Design
 
+# Flexbox Layout Design
+
 ## HTML Code
 ```html
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiết kế giao diện web với Flexbox Layout Design</title>
+    <title>Flexbox Layout</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -48,9 +50,12 @@ Lập trình giao diện website
             </aside>
             <!-- Main Content -->
             <section class="content">
+ <h3>Thực hành</h3>
+                <p>Mở Visual Studio Code, chọn thư mục <strong>Lập Trình Giao Diện Web</strong>, sau đó mở thư mục <strong>Bài 1</strong> để làm bài tập này.</p>
                 <h2>Hướng dẫn cấu hình ban đầu cho VS Code để lập trình giao diện web</h2>
                 <h3>VS Code Extensions</h3>
                 <ul>
+                    <li>Live Preview</li>
                     <li>Live Server</li>
                     <li>Auto Rename Tag</li>
                     <li>Autumn Color Highlight</li>
@@ -94,13 +99,15 @@ Lập trình giao diện website
                     <li>Eye Dropper</li>
                     <li>Color Slurp</li>
                 </ul>
+
+               
             </section>
         </main>
 
         <!-- Footer -->
         <footer class="footer">
-            <p>Thông tin liên hệ: 0943 943 179 | me@hoangquoctuan.net</p>
-            <p>Theo dõi chúng tôi trên: <a href="https://hoangquoctuan.net">Website</a>, <a href="https://facebook.com/tuanhoba">Facebook</a>, <a href="https://twitter.com/tuanhoba">Twitter</a>, <a href="https://instagram.com/tuanhoba">Instagram</a></p>
+            <p>Thông tin liên hệ: 0123 456 789 | email@example.com</p>
+            <p>Theo dõi chúng tôi trên: <a href="https://facebook.com/tuanhoba">Facebook</a>, <a href="https://twitter.com/tuanhoba">Twitter</a>, <a href="https://instagram.com/tuanhoba">Instagram</a></p>
             <p>Tham khảo thêm về Flexbox tại: <a href="https://codepen.io/hoangquoctuan/pen/ZEVdREy" target="_blank">CodePen</a></p>
         </footer>
     </div>
@@ -126,7 +133,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0 auto;
 }
 
 /* Header */
